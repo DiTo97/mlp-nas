@@ -1,0 +1,9 @@
+# Cached folders
+.vscode
+__pycache__
+
+# Generated sequences
+LOGS/*
+
+# Too big to load on GitHub
+DATASETS/crimes.csv
