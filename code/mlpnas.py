@@ -241,9 +241,6 @@ class MLPNAS(Controller):
         _ : np.ndarray
             Targets array, which do not exist here.
             Note: Needed to make it compliant with a Keras loss.
-
-        Questa reward function deve prendere la validation accuracy di ogni architettura generata, 
-        con l'obiettivo di massimizzare il prodotto della log-likelihood con il reward, per ogni step
         """
         
         # Compute the rewards by extracting the validation accuracies corresponding to the current epoch's sampled architectures and later soft threshold them w.r.t. the baseline value, of 0.5.
