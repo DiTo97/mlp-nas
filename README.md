@@ -21,21 +21,19 @@ Recent advances in deep learning research have given birth to really powerfularc
 1. **Introduction to NAS** (5W's of journalism) 
 
 2. **Problem setting analysis**
-	* Search Space
+	* Search space
 		* Macro-vs-micro [*Ciranni*] 
-	* Search Strategy
+	* Search strategy
 		* Reinforcement learning (classic **NAS**) [*Minutoli*]
+		* Others [*Minutoli*]
 		* Progressive search (**PNAS**) [*Ciranni*] 
 		* Differentiable search (**DNAS**) [*Ciranni*]
-		* Others [*Minutoli*]
 	* Performance estimation [*Minutoli*]		
 		
 3. **Algorithmic overview**
 	- In-depth analysis **DARTS** [*Ciranni*]
 	- In-depth analysis **ENAS** [*Minutoli*]
 	
-4. **Few words on MorphNet**
+4. **Proposed implementation**
 
-5. **Custom implementation vs. MorphNet on a controlled domain**
-	- Accuracy metrics
-	- Performances of our implementation
+5. **Results and conclusion**
